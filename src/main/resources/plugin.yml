@@ -1,0 +1,8 @@
+name: TownOutlaw
+version: '${project.version}'
+main: net.lithosmc.townoutlaw.TownOutlaw
+api-version: 1.17
+depend: [ Towny ]
+softdepend: [ Essentials ]
+authors: [ Silverwolfg11 ]
+description: A plugin that adds risk to being outlawed in a town.
