@@ -16,6 +16,17 @@ in.
 This feature is very simple. It disables abilities such as flying or Essentials
 god within an outlawed town.
 
+### Added Commands
+This plugin adds two commands to Towny.
+
+#### Resident Outlaw
+The first command is `/resident outlaw` (permission `towny.command.resident.outlaw`) which allows residents
+to see which towns they are outlawed in.
+
+#### TownyAdmin ReloadTownOutlaw
+The second command is `/townyadmin reloadtownoutlaw` (permission `townoutlaw.reload`) which reloads
+the plugin including the configuration.
+
 ## Dependencies
 Please make sure you have the following installed on your server before installing
 this plugin.

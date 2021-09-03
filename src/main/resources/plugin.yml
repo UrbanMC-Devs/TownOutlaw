@@ -6,3 +6,13 @@ depend: [ Towny ]
 softdepend: [ Essentials ]
 authors: [ Silverwolfg11 ]
 description: A plugin that adds risk to being outlawed in a town.
+
+permissions:
+  townoutlaw.reload:
+    description: Ability to use /ta reloadtownoutlaw to reload the plugin.
+    default: op
+
+  # Give permission to residents in townyperm.yml
+  towny.command.resident.outlaw:
+    description: Ability to use /resident outlaw and see which towns have outlawed them.
+    default: op
